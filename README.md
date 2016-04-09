@@ -1,5 +1,10 @@
+    
+search: true
+---
 
 # MultiConnect Conduit
+
+<img class="imgHeader" src ="/images/conduit.png" />
 
 MultiConnect® Conduit™ is a programmable gateway that uses an open Linux development environment to enable machine-to-machine (M2M) connectivity using various wireless interfaces. It also provides an online application store as a platform for developers to provision and manage their gateway and associated sensors and devices.
 
@@ -41,30 +46,30 @@ MultiConnect® Conduit™ is a programmable gateway that uses an open Linux deve
 ## Setting up Ethernet configuration
 
 1. Open an Internet browser. In the browser’s address field, type the default address for the device: http://192.168.2.1 when login page will appear type default user name (admin) and default password (admin).
-    <img class="imgBody" src ="../images/devices/conduitLogIn.png" />
+    <img class="imgBody" src ="/images/conduitLogIn.png" />
 2. Go to **Setup** and click on **Network Interfaces**.
-    <img class="imgBody" src ="../images/devices/conduitSetUp.png" />
+    <img class="imgBody" src ="/images/conduitSetUp.png" />
 3. There press click on the pen of **eth0**.
-    <img class="imgBody" src ="../images/devices/conduitEth0.png" />
+    <img class="imgBody" src ="/images/conduitEth0.png" />
 4. Now configure Typre to **LAN** and  Mode to **DHCP Client**.
-    <img class="imgBody" src ="../images/devices/conduitLAN.png" />
+    <img class="imgBody" src ="/images/conduitLAN.png" />
 5. Go back to **Setup** and click on **Lora Network Server**.
-    <img class="imgBody" src ="../images/devices/conduitSetLora.png" />
+    <img class="imgBody" src ="/images/conduitSetLora.png" />
 6. Setup the **Lora network name**, **Frequency Sub-Band** and **Passphrase**.
-    <img class="imgBody" src ="../images/devices/conduitSettingLora.png" />
+    <img class="imgBody" src ="/images/conduitSettingLora.png" />
 7. Click on Apps label and press Node-RED.
-    <img class="imgBody" src ="../images/devices/conduitInNode.png" />
+    <img class="imgBody" src ="/images/conduitInNode.png" />
 
 ## Setting up Mobile configuration
 
 1. Open an Internet browser. In the browser’s address field, type the default address for the device: http://192.168.2.1 when login page will appear type default user name (admin) and default password (admin).
-    <img class="imgBody" src ="../images/devices/conduitLogIn.png" />
+    <img class="imgBody" src ="/images/conduitLogIn.png" />
 2. Go to **Cellular > Cellular Configuration** to display the Cellular Configuration window.
-    <img class="imgBody" src ="../images/devices/conduitCellConfig.png" />
+    <img class="imgBody" src ="/images/conduitCellConfig.png" />
 3. Check the Enabled box.
-    <img class="imgBody" src ="../images/devices/conduiCellCheck.png" />
+    <img class="imgBody" src ="/images/conduiCellCheck.png" />
 4. For GSM radios, enter the **APN** in the field located in the **Modem Configuration** section of the window.
-    <img class="imgBody" src ="../images/devices/conduitCellAPN.png" />
+    <img class="imgBody" src ="/images/conduitCellAPN.png" />
 5. Click Submit.
 
 ## Setting up Node-RED
@@ -78,10 +83,10 @@ MultiConnect® Conduit™ is a programmable gateway that uses an open Linux deve
 To setting up the Node-RED you just need to follow next steps:
 
 1. Click on the upper right corner button, select **Import** label and next **Clipboard** label.
-    <img class="imgBody" src ="../images/devices/nodeREDimport.png" />
+    <img class="imgBody" src ="/images/nodeREDimport.png" />
 2. Inside of the blank square paste our code of **Text to import**.
-    <img class="imgBody" src ="../images/devices/nodeREDsquare.png" />
+    <img class="imgBody" src ="/images/nodeREDsquare.png" />
 3. Click on **Ok** and paste the block diagram.
-    <img class="imgBody" src ="../images/devices/nodeREDblock.png" />
+    <img class="imgBody" src ="/images/nodeREDblock.png" />
 4. Press double click on function label of new diagram and change **TOKEN** for your personal token and **VARIABLE_NAME** for the variable name that you want to send.
-    <img class="imgBody" src ="../images/devices/nodeREDfunction.png" />
+    <img class="imgBody" src ="/images/nodeREDfunction.png" />
